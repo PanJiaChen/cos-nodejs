@@ -1,0 +1,27 @@
+{
+  "name": "cos-cdn",
+  "version": "1.0.1",
+  "description": "cos-nodejs-sdk-v5 upload static assests to cloud.tencent cdn",
+  "main": "lib/Cos.js",
+  "bin": {
+    "cos-cdn-upload": "bin/cos.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "cdn",
+    "cos",
+    "tencentyun",
+    "sdk"
+  ],
+  "author": "Pan",
+  "license": "MIT",
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "2.3.6",
+    "yargs": "11.0.0"
+  }
+}
